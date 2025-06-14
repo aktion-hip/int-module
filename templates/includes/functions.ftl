@@ -10,3 +10,7 @@
   [#assign ancestors = cmsfn.ancestors(contentToCheck, "mgnl:page") ]
   [#return ancestors?seq_contains(possibleAncestor)]
 [/#function]
+
+[#function hideInNav page]
+  [#return page.hideInNav!false]
+[/#function]

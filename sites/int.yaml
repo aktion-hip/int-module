@@ -3,6 +3,8 @@ templates:
     templates:
       home:
         id: int-module:pages/intHomePage
+        roles:
+          superuser: superuser
       standardLeft:
         id: int-module:pages/intPageSidebarL
       standardRight:

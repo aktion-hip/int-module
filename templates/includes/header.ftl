@@ -1,3 +1,4 @@
+[#include "./macros.ftl"]
 [#include "./functions.ftl"]
 <nav id="nav">
     <ul class="int-navigation">
@@ -7,13 +8,13 @@
         <li><a href="${cmsfn.link(siteRoot)}">${siteRoot.navigationTitle!"Home"}</a></li>
     [/#if]
     [#list cmsfn.children(siteRoot, "mgnl:page") as childOfRoot]
-        [#if !childOfRoot.hideInNav!false]
+        [#if !hideInNav(childOfRoot)]
             [#if isEqualPath(childOfRoot, content)]
-                <li class="current"><a href="${cmsfn.link(childOfRoot)}">${childOfRoot.navigationTitle!}</a></li>
+                <li class="current"><a href="${cmsfn.link(childOfRoot)}">${childOfRoot.navigationTitle!}</a>[@subNavigation childOfRoot /]</li>
             [#elseif isAncestorOf(childOfRoot, content)]
-                <li class="current"><a href="${cmsfn.link(childOfRoot)}">${childOfRoot.navigationTitle!}</a></li>
+                <li class="current"><a href="${cmsfn.link(childOfRoot)}">${childOfRoot.navigationTitle!}</a>[@subNavigation childOfRoot /]</li>
             [#else]
-                <li><a href="${cmsfn.link(childOfRoot)}">${childOfRoot.navigationTitle!}</a></li>
+                <li><a href="${cmsfn.link(childOfRoot)}">${childOfRoot.navigationTitle!}</a>[@subNavigation childOfRoot /]</li>
             [/#if]
         [/#if]
     [/#list]
