@@ -1,0 +1,12 @@
+title: component.int.high
+renderType: freemarker
+templateScript: /int-module/templates/components/highSection.ftl
+dialog: int-module:components/highSection
+
+areas:
+  highParts:
+    renderType: freemarker
+    availableComponents:
+      highPart:
+        id: int-module:components/highlight
+    optional: true

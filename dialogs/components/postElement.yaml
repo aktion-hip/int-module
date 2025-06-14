@@ -1,0 +1,13 @@
+label: component.int.post
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+      i18n: true
+      required: true
+    post:
+      label: Post
+      $type: richTextField
+      i18n: true
+      required: true

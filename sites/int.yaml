@@ -1,0 +1,28 @@
+templates:
+  availability:
+    templates:
+      home:
+        id: int-module:pages/intHomePage
+      standardLeft:
+        id: int-module:pages/intPageSidebarL
+      standardRight:
+        id: int-module:pages/intPageSidebarR
+      standardBoth:
+        id: int-module:pages/intPageSidebarBoth
+      standardNo:
+        id: int-module:pages/intPageSidebarNo
+mappings:
+  website:
+    URIPrefix: ""
+    handlePrefix: /integrated
+    repository: website
+theme:
+  name: int-theme
+i18n:
+  class: info.magnolia.cms.i18n.DefaultI18nContentSupport
+  enabled: true
+  fallbackLocale: en
+  locales:
+    en:
+      enabled: true
+      language: en

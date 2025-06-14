@@ -1,0 +1,32 @@
+cssFiles:
+  int:
+    addFingerPrint: true
+    link: /.resources/int-module/webresources/css/int.css
+    media: all
+  main:
+    addFingerPrint: true
+    link: /.resources/int-module/webresources/css/main.css
+    media: all
+  fontawesome-all:
+    addFingerPrint: true
+    link: /.resources/int-module/webresources/css/fontawesome-all.min.css
+    media: all
+jsFiles:
+  jquery:
+    addFingerPrint: true
+    link: /.resources/int-module/webresources/js/1-jquery.min.js
+  jquery.dropotron:
+    addFingerPrint: true
+    link: /.resources/int-module/webresources/js/2-jquery.dropotron.min.js
+  browser:
+    addFingerPrint: true
+    link: /.resources/int-module/webresources/js/3-browser.min.js
+  breakpoints:
+    addFingerPrint: true
+    link: /.resources/int-module/webresources/js/4-breakpoints.min.js
+  util:
+    addFingerPrint: true
+    link: /.resources/int-module/webresources/js/5-util.js
+  main:
+    addFingerPrint: true
+    link: /.resources/int-module/webresources/js/6-main.js

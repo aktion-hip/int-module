@@ -1,0 +1,12 @@
+title: component.int.posts
+renderType: freemarker
+templateScript: /int-module/templates/components/postSection.ftl
+dialog: int-module:components/postSection
+
+areas:
+  posts:
+    renderType: freemarker
+    availableComponents:
+      post:
+        id: int-module:components/postElement
+    optional: true

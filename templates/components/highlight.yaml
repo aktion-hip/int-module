@@ -1,0 +1,4 @@
+title: component.int.high.light
+renderType: freemarker
+templateScript: /int-module/templates/components/highlight.ftl
+dialog: int-module:components/highlight

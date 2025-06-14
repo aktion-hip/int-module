@@ -1,0 +1,27 @@
+title: integratedPageSBBoth
+templateScript: /int-module/templates/pages/intPageSidebarBoth.ftl
+renderType: freemarker
+dialog: int-module:pages/intPageSidebarBoth
+visible: true
+
+areas:
+  center:
+    renderType: freemarker
+    availableComponents:
+      intSection:
+        id: int-module:components/intSection
+      textWithImage:
+        id: int-module:components/textWithImage
+    optional: false
+  sidebarL:
+    renderType: freemarker
+    availableComponents:
+      intSection:
+        id: int-module:components/intSection
+    optional: true
+  sidebarR:
+    renderType: freemarker
+    availableComponents:
+      intSection:
+        id: int-module:components/intSection
+    optional: true

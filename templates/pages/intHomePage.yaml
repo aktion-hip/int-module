@@ -1,0 +1,17 @@
+title: integratedHomePage
+templateScript: /int-module/templates/pages/IntHomePage.ftl
+renderType: freemarker
+dialog: int-module:pages/intHomePage
+visible: true
+
+areas:
+  sections:
+    renderType: freemarker
+    availableComponents:
+      highSection:
+        id: int-module:components/highSection
+      fullWidthSection:
+        id: int-module:components/fullWidthSection
+      postSection:
+        id: int-module:components/postSection
+    optional: false

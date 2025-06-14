@@ -1,0 +1,73 @@
+label: component.int.high.light
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+      i18n: true
+      required: true
+    text:
+      label: Text
+      $type: richTextField
+      i18n: true
+      required: true
+    icon:
+      label: Option
+      $type: comboBoxField
+      datasource:
+        $type: optionListDatasource
+        options:
+          - name: fa-bell
+            label: Bell
+            value: fa-bell
+          - name: fa-camera
+            label: Camera
+            value: fa-camera
+          - name: fa-comment
+            label: Comment
+            value: fa-comment
+          - name: fa-envelope
+            label: Envelope
+            value: fa-envelope
+          - name: fa-file
+            label: File
+            value: fa-file
+          - name: fa-flag
+            label: Flag
+            value: fa-flag
+          - name: fa-globe
+            label: Globe
+            value: fa-globe
+          - name: fa-heart
+            label: Heart
+            value: fa-heart
+          - name: fa-info
+            label: Info
+            value: fa-info
+          - name: fa-key
+            label: Key
+            value: fa-key
+          - name: fa-music
+            label: Music
+            value: fa-music
+          - name: fa-paper-plane
+            label: Paperplane
+            value: fa-paper-plane
+          - name: fa-pen
+            label: Pen
+            value: fa-pen
+          - name: fa-trash
+            label: Trash
+            value: fa-trash
+          - name: fa-user
+            label: User
+            value: fa-user
+          - name: fa-wifi
+            label: Wifi
+            value: fa-wifi
+          - name: fa-clock
+            label: Clock
+            value: fa-clock
+          - name: fa-wrench
+            label: Wrench
+            value: fa-wrench

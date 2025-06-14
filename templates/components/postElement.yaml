@@ -1,0 +1,4 @@
+title: component.int.post
+renderType: freemarker
+templateScript: /int-module/templates/components/postElement.ftl
+dialog: int-module:components/postElement

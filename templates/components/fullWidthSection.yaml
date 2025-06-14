@@ -1,0 +1,4 @@
+title: component.int.fullWidth
+renderType: freemarker
+templateScript: /int-module/templates/components/fullWidthSection.ftl
+dialog: int-module:components/fullWidthSection

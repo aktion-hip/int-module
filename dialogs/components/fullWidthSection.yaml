@@ -1,0 +1,12 @@
+label: component.int.fullWidth
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+      i18n: true
+      required: true
+    content:
+      label: Content
+      $type: richTextField
+      i18n: true

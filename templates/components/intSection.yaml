@@ -1,0 +1,4 @@
+title: component.int.section
+renderType: freemarker
+templateScript: /int-module/templates/components/intSection.ftl
+dialog: int-module:components/intSection

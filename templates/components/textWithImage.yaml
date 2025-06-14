@@ -1,0 +1,4 @@
+title: component.int.textImage
+renderType: freemarker
+templateScript: /int-module/templates/components/textWithImage.ftl
+dialog: int-module:components/textWithImage

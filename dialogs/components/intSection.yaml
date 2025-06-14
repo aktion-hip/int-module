@@ -1,0 +1,24 @@
+label: component.int.section
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+      i18n: true
+      required: false
+    content:
+      $type: richTextField
+      label: Content
+      fontSizes: 16/1em;20/1.25em;24/1.5em
+      i18n: true
+      required: true
+    footer:
+      $type: textField
+      label: Footer
+      i18n: true
+      required: false
+    footerURL:
+      $type: pageLinkField
+      label: Footer URL
+      i18n: true
+      required: false

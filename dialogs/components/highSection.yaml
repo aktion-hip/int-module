@@ -1,0 +1,8 @@
+label: component.int.high
+form:
+  properties:
+    title:
+      $type: staticField
+      label: ""
+      value: Nothing to configure
+      i18n: true

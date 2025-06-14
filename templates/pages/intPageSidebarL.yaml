@@ -1,0 +1,21 @@
+title: integratedPageSBLeft
+templateScript: /int-module/templates/pages/IntPageSidebarL.ftl
+renderType: freemarker
+dialog: int-module:pages/intPageSidebarL
+visible: true
+
+areas:
+  content:
+    renderType: freemarker
+    availableComponents:
+      intSection:
+        id: int-module:components/intSection
+      textWithImage:
+        id: int-module:components/textWithImage
+    optional: false
+  sidebar:
+    renderType: freemarker
+    availableComponents:
+      intSection:
+        id: int-module:components/intSection
+    optional: false
