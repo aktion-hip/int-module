@@ -31,6 +31,26 @@ form:
       label: Description
       i18n: true
       rows: 5
+    socX:
+      $type: textField
+      label: X
+      i18n: true
+    socGithub:
+      $type: textField
+      label: Github
+      i18n: true
+    socLinkedin:
+      $type: textField
+      label: Linkedin
+      i18n: true
+    socFacebook:
+      $type: textField
+      label: Facebook
+      i18n: true
+    socInstagram:
+      $type: textField
+      label: Instagram
+      i18n: true
   layout:
     $type: tabbedLayout
     tabs:
@@ -46,3 +66,11 @@ form:
         fields:
           - name: keywords
           - name: description
+      tabSocialMedia:
+        label: Social Media
+        fields:
+          - name: socX
+          - name: socGithub
+          - name: socLinkedin
+          - name: socFacebook
+          - name: socInstagram

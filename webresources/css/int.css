@@ -1,3 +1,16 @@
 .integrated .box.post .inner {
     margin-left: 2em;
 }
+
+.integrated .social-icon-x {
+    background: url(../icons/fa-x-twitter.svg) no-repeat center;
+}
+
+.integrated .social-icon-x:hover {
+    background: url(../icons/fa-x-twitter_black.svg) no-repeat center;
+}
+
+.integrated .social-icon-x .social-label {
+    width: 0.7em;
+    display: inline-block
+}

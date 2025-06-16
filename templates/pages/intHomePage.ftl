@@ -2,6 +2,7 @@
 <html xml:lang="${cmsfn.language()}" lang="${cmsfn.language()}">
   <head>
     [@cms.page /]
+    [#assign siteRoot = cmsfn.root(content, "mgnl:page")!content ]
     <meta charset="utf-8" />
     <title>${content.windowTitle!content.title!}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -13,7 +14,6 @@
     [#list theme.cssFiles as cssFile]
     <link rel="stylesheet" type="text/css" href="${cssFile.link}" media="${cssFile.media}" />
     [/#list]
-    [#assign siteRoot = cmsfn.root(content, "mgnl:page")!content ]
   </head>
   <body class="${cmsfn.language()} is-preload integrated">
 
@@ -28,6 +28,7 @@
       [@cms.area name="sections"/]
     </div>
 
+    [#include "../includes/footer.ftl"]
     <!-- Scripts -->
     ${resfn.js(["/int-module/webresources/js/.*js"])}
   </body>
