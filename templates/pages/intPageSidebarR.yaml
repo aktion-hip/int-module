@@ -1,5 +1,5 @@
 title: integratedPageSBRight
-templateScript: /int-module/templates/pages/IntPageSidebarR.ftl
+templateScript: /int-module/templates/pages/intPageSidebarR.ftl
 renderType: freemarker
 dialog: int-module:pages/intPageSidebarR
 visible: true

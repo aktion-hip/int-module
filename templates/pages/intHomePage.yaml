@@ -1,5 +1,5 @@
 title: integratedHomePage
-templateScript: /int-module/templates/pages/IntHomePage.ftl
+templateScript: /int-module/templates/pages/intHomePage.ftl
 renderType: freemarker
 dialog: int-module:pages/intHomePage
 visible: true
