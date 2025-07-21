@@ -12,6 +12,10 @@ areas:
         id: int-module:components/intSection
       textWithImage:
         id: int-module:components/textWithImage
+      highSection:
+        id: int-module:components/highSection
+      postSection:
+        id: int-module:components/postSection        
     optional: false
   sidebar:
     renderType: freemarker
