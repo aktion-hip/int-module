@@ -12,6 +12,8 @@ areas:
         id: int-module:components/intSection
       textWithImage:
         id: int-module:components/textWithImage
+      personSection:
+        id: int-module:components/personSection                
     optional: false
   sidebarL:
     renderType: freemarker

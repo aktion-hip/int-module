@@ -2,6 +2,10 @@
     margin-left: 2em;
 }
 
+.integrated .box.post.person .inner {
+    margin-left: calc(30% + 2em);
+}
+
 .integrated .social-icon-x {
     background: url(../icons/fa-x-twitter.svg) no-repeat center;
 }

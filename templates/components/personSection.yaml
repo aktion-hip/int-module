@@ -1,0 +1,4 @@
+title: component.int.person
+renderType: freemarker
+templateScript: /int-module/templates/components/personSection.ftl
+dialog: int-module:components/personSection
