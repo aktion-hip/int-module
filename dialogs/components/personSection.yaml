@@ -1,0 +1,14 @@
+label: component.int.person
+form:
+  properties:
+    title:
+      $type: textField
+      label: Name
+      i18n: true
+    image:
+      label: Image
+      $type: damLinkField
+    desc:
+      label: Description
+      $type: richTextField
+      i18n: true

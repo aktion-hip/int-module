@@ -15,7 +15,9 @@ areas:
       highSection:
         id: int-module:components/highSection
       postSection:
-        id: int-module:components/postSection        
+        id: int-module:components/postSection
+      personSection:
+        id: int-module:components/personSection                
     optional: false
   sidebar:
     renderType: freemarker
