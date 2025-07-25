@@ -31,6 +31,11 @@
             <div class="col-8 col-12-narrower">
               <!-- Content -->
               <div id="content">
+                <article>
+                  <header>
+                    <h2>${content.title!"Page Title"}</h2>
+                  </header>
+                </article>
                 [@cms.area name="content"/]
               </div>
             </div>

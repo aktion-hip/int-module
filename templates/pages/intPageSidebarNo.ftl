@@ -27,6 +27,11 @@
       <section class="wrapper style1">
         <div class="container">
           <div id="content">
+            <article>
+              <header>
+                <h2>${content.title!"Page Title"}</h2>
+              </header>
+            </article>
             [@cms.area name="content"/]
           </div>
         </div>
