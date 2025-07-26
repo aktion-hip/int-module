@@ -9,5 +9,6 @@ form:
     post:
       label: Post
       $type: richTextField
+      alignment: true
       i18n: true
       required: true

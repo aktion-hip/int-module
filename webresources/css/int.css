@@ -18,3 +18,27 @@
     width: 0.7em;
     display: inline-block
 }
+
+.integrated figure.table thead th {
+    font-weight: bold;
+}
+
+.integrated figure.table table {
+    border-collapse: collapse;
+    background-color: #f2f2f2;
+}
+
+.integrated figure.table table,
+.integrated figure.table th,
+.integrated figure.table td {
+    border: 1px solid;
+    border-color: #FFF;
+}
+
+.integrated figure.table th {
+    padding: 0.4em 0;
+}
+
+.integrated figure.table td {
+    padding: 0.1em 0.7em;
+}
