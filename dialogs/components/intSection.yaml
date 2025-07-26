@@ -10,6 +10,8 @@ form:
       $type: richTextField
       label: Content
       fontSizes: 16/1em;20/1.25em;24/1.5em
+      alignment: true
+      tables: true
       i18n: true
       required: true
     footer:

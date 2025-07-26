@@ -9,6 +9,7 @@ form:
     text:
       label: Text
       $type: richTextField
+      alignment: true
       i18n: true
       required: true
     icon:

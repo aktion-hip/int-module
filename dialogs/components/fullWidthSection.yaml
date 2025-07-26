@@ -9,4 +9,6 @@ form:
     content:
       label: Content
       $type: richTextField
+      alignment: true
+      tables: true
       i18n: true
