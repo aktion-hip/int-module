@@ -42,3 +42,70 @@
 .integrated figure.table td {
     padding: 0.1em 0.7em;
 }
+
+.integrated section.frontSection:first-child {
+    background-color: #FFF;
+}
+
+.integrated .frontSection .full-width {
+    margin: 0;
+}
+
+.integrated .frontSection .two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin: 0;
+}
+
+.integrated .frontSection .two-column img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.integrated .inthome .wrapper.style1 {
+    background-color: #FFF;
+}
+
+.integrated .inthome .fullwidth.style2 {
+    background-color: #FFF;
+}
+
+.integrated .inthome header.major,
+.integrated .inthome .major h2 {
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
+}
+
+.frontSection p {
+    margin-bottom: 0;
+}
+
+@media screen {
+    .integrated {
+        background-color: #FFF;
+    }
+
+    .integrated .wrapper {
+        padding-top: 1em;
+        padding-bottom: 0;
+    }
+
+    .integrated section.frontSection:first-child {
+        padding-top: 1em;
+        background-color: #FFF;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .integrated .frontSection .two-column {
+        grid-template-columns: 1fr;
+    }
+
+    .integrated .frontSection .two-column .col {
+        margin-bottom: 1rem;
+    }
+}
