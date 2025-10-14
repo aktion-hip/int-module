@@ -16,6 +16,7 @@ form:
       $type: richTextField
       alignment: true
       tables: true
+      source: true
       i18n: true
     image:
       label: Image
@@ -24,3 +25,9 @@ form:
       $type: textField
       label: Image Caption
       i18n: true
+    bookmark:
+      $type: textField
+      label: Bookmark
+      description: Used for anchor links to this section (e.g., #bookmark)
+      maxLength: 10
+      i18n: false

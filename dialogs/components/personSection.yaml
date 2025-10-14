@@ -11,4 +11,5 @@ form:
     desc:
       label: Description
       $type: richTextField
+      source: true
       i18n: true
