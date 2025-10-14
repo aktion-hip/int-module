@@ -1,7 +1,7 @@
 <article>
   <header>
     [#if content.title?has_content]
-      <h2>${content.title!}</h2>
+      <h2 ${content.bookmark?has_content?then('id="${content.bookmark}"', '')}>${content.title!}</h2>
     [/#if]
 
     [#if content.subtitle?has_content]

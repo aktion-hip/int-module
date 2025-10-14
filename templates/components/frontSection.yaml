@@ -1,0 +1,4 @@
+title: component.int.frontSection
+renderType: freemarker
+templateScript: /int-module/templates/components/frontSection.ftl
+dialog: int-module:components/frontSection

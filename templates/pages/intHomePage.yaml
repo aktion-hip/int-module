@@ -14,4 +14,6 @@ areas:
         id: int-module:components/fullWidthSection
       postSection:
         id: int-module:components/postSection
+      frontSection:
+        id: int-module:components/frontSection
     optional: false

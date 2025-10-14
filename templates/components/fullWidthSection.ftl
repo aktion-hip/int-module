@@ -1,4 +1,4 @@
-<section class="wrapper style2">
+<section class="wrapper style2 fullwidth">
   <div class="container">
     <header class="major">
       <h2>${content.title!}</h2>

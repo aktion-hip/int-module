@@ -1,0 +1,31 @@
+label: component.int.frontSection
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+      i18n: true
+    content:
+      label: Content
+      $type: richTextField
+      alignment: true
+      tables: true
+      source: true
+      required: true
+      i18n: true
+    image:
+      label: Image
+      $type: damLinkField
+    styleOption:
+      label: Style Options
+      $type: radioButtonGroupField
+      defaultValue: imageLeft
+      datasource:
+        $type: optionListDatasource
+        options:
+          - name: imageLeft
+            label: Image Left
+            value: imageLeft
+          - name: imageRight
+            label: Image Right
+            value: imageRight

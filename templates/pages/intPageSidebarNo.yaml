@@ -17,5 +17,5 @@ areas:
       postSection:
         id: int-module:components/postSection
       personSection:
-        id: int-module:components/personSection                
+        id: int-module:components/personSection
     optional: false

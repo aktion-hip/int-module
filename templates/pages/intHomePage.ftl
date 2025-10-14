@@ -17,7 +17,7 @@
   </head>
   <body class="${cmsfn.language()} is-preload integrated">
 
-    <div id="page-wrapper">
+    <div id="page-wrapper" class="inthome">
       <!-- Header -->
       <div id="header" class="int-header">
         <h1><a id="logo" href="${cmsfn.link(siteRoot)}">${siteRoot.title!}</a></h1>
